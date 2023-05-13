@@ -4,7 +4,6 @@
 <h1 align="center">Todo List with HTML, CSS, Jquery</h1>
 <h3 align="center">JavaScript applications in front end</h3>
 
-<h3 align="left">Connect with me:</h3>
 <p align="left">
 </p>
 
