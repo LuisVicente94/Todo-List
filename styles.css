@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap');
+
+
+
+html{background: hsla(197, 100%, 63%, 1);
+
+background: linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+h1{
+    color: #fff;
+
+    margin: 20px auto;
+
+    width: 100%;
+
+    text-align: center;
+
+}
+
+.container #addTodo {
+    
+    border: 0 ;
+    background-color: #000000;
+    color: #fff;
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    font-size: 25px;
+    cursor: pointer;
+
+}
+
+.container{
+    width: 300px;
+    background-color: #fff;
+    max-width: 80%;
+    padding: 10px;
+    border-radius: 3px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.3), 0 15px 12px rgba(0,0,0,0.22);
+
+}
+
+.container #newTodo{
+
+    padding: 10px;
+    border-radius: 3px 0 0 3px;
+    border: 0;
+    border-bottom: 1px solid #cecece;
+    width: 230px;
+    outline: none;
+    }
+
+.container .containerImput {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.container #TodoList {
+
+    text-align: left;
+    list-style-type: none;
+    margin: 0;
+    margin-top: 60px;
+    width: 100%;
+    padding: 0;
+}
+
+
+.container #TodoList li{
+    border: 0;
+    border-bottom: 1px solid #f3f3f3;
+    padding: 10px;
+    margin: 5px auto;
+    transition: all 1.3s ease-in-out;
+}
+
+.container #TodoList li p {
+    display: inline-block;
+    margin: 0;
+    width: 75%;
+    transition: all 0.3s ease;
+}
+
+.container #TodoList li button {
+    border: 0;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+
+}
+
+.removeTodo{
+
+    background-color: #f43449;
+    color: #fff;
+  
+}
+
+.doneTodo{
+
+    background-color: #00d7a1;
+    color: #fff;
+    
+}
+
+.lineThrough{
+    text-decoration: line-through;
+    color: lightgray;
+}
